@@ -1,0 +1,7 @@
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        actions-rust-lang/setup-rust-toolchain: ref-pin
+        github/codeql-action/*: ref-pin
+        actions/*: ref-pin
